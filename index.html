@@ -1,8 +1,102 @@
 <!DOCTYPE html>
-<html>
-  <head><title>My Course Page</title></head>
-  <body>
-    <h1>張嘉祥的課程首頁</h1>
-    <p>這是 CS203A 課程的個人網頁。</p>
-  </body>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>張嘉祥的資料結構筆記</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1e1e2f;
+      color: #e0e0e0;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00bcd4;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    .card {
+      background-color: #2c2c3c;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: #ffd54f;
+      margin-bottom: 1rem;
+    }
+
+    .card a {
+      color: #80deea;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>張嘉祥的資料結構筆記</h1>
+    <p>這是 CS203A 課程的個人學習網頁，記錄筆記、作業與學習歷程。</p>
+  </header>
+
+  <section class="card">
+    <h2>📘 課程資訊</h2>
+    <p>課程名稱：資料結構 (CS203A)</p>
+    <p>授課教師：黃鈺峰 教授</p>
+    <p>學期：114 學年度第一學期</p>
+  </section>
+
+  <section class="card">
+    <h2>📝 筆記與作業倉庫</h2>
+    <p>GitHub Repository：<a href="https://github.com/EasonZhangH/11401_CS203A" target="_blank">11401_CS203A</a></p>
+    <p>內容包含：課堂筆記、作業提交、版本控制、專案紀錄</p>
+  </section>
+
+  <section class="card">
+    <h2>👤 我的 GitHub</h2>
+    <p>帳號：<a href="https://github.com/EasonZhangH" target="_blank">EasonZhangH</a></p>
+    <p>歡迎參觀我的其他專案與作品！</p>
+  </section>
+
+  <footer>
+    &copy; 2025 張嘉祥 | Powered by GitHub & VS Code
+  </footer>
+</body>
 </html>
